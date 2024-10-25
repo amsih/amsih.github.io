@@ -1,1 +1,0 @@
-# amsih.github.io
