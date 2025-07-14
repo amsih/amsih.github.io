@@ -37,42 +37,7 @@
     <span class="ti-arrow-up"></span>
   </div>
   
-  <!-- Setting button -->
-  <div class="config">
-    <div class="template-config">
-      <!-- Settings -->
-      <div class="d-block">
-        <button class="btn btn-fab btn-sm" id="sideel" title="Settings"><span class="ti-settings"></span></button>
-      </div>
-      <!-- Puschase -->
-      <div class="d-block">
-        <a href="https://macodeid.com/projects/virtual-folio/" class="btn btn-fab btn-sm" title="Get this template" data-toggle="tooltip" data-placement="left"><span class="ti-download"></span></a>
-      </div>
-      <!-- Help -->
-      <div class="d-block">
-        <a href="#" class="btn btn-fab btn-sm" title="Help" data-toggle="tooltip" data-placement="left"><span class="ti-help"></span></a>
-      </div>
-    </div>
-    <div class="set-menu">
-      <p>Select Color</p>
-      <div class="color-bar" data-toggle="selected">
-        <span class="color-item bg-theme-red selected" data-class="theme-red"></span>
-        <span class="color-item bg-theme-blue" data-class="theme-blue"></span>
-        <span class="color-item bg-theme-green" data-class="theme-green"></span>
-        <span class="color-item bg-theme-orange" data-class="theme-orange"></span>
-        <span class="color-item bg-theme-purple" data-class="theme-purple"></span>
-      </div>
-      <select class="custom-select d-block my-2" id="change-page">
-        <option value="">Choose Page</option>
-        <option value="index">Topbar</option>
-        <option value="blog-topbar">Blog (Topbar)</option>
-        <option value="index-2">Minibar</option>
-        <option value="blog-minibar">Blog (Minibar)</option>
-      </select>
-    </div>
-  </div>
-  
-  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.jpg)">
+  <div class="vg-page page-home" id="home" style="background-image: url(../assets/img/bg_image_1.png)">
     <!-- Navbar -->
     <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
       <div class="container">
@@ -93,6 +58,9 @@
             </li>
             <li class="nav-item">
               <a href="#blog" class="nav-link" data-animate="scrolling">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link" data-animate="scrolling">Projects</a>
             </li>
           </ul>
         </div>
@@ -241,10 +209,10 @@
   </div>
   
   <!-- Portfolio page --> 
-  <div class="vg-page page-portfolio" id="portfolio"></div>
+  <div class="vg-page page-portfolio" id="portfolio">
     <div class="container">
       <div class="text-center">
-        <div class="badge badge-subhead wow fadeInUp">Portfolio</div>
+        <div class="badge badge-subhead wow fadeInUp">Photos</div>
       </div>
       <h1 class="text-center fw-normal wow fadeInUp">My Astrophotography</h1>
       <div class="gridder my-3">
@@ -276,30 +244,6 @@
       </div>
       <h1 class="text-center fw-normal wow fadeInUp">Latest Posts</h1>
       <div class="row post-grid">
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="../assets/img/work/work1.png" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">Mathematics</a>
-              <a href="https://github.com/amsih/BSM/blob/main/BSM.ipynb" class="post-title">Surface Level Study and Python Implementation of the BSM Model</a>
-              <span class="post-date"><span class="sr-only">Published on</span> December 13, 2024</span>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 wow fadeInUp">
-          <div class="card">
-            <div class="img-place">
-              <img src="../assets/img/work/AUCROC.png" alt="">
-            </div>
-            <div class="caption">
-              <a href="javascript:void(0)" class="post-category">Machine Learning</a>
-              <a href="https://github.com/amsih/ML-In-Python/blob/main/Machine_Learning.ipynb" class="post-title">Studying Machine Learning Fundamentals in Python</a>
-              <span class="post-date"><span class="sr-only">Published on</span> December 13, 2024</span>
-            </div>
-          </div>
-        </div>
         <div class="col-md-6 col-lg-4 wow fadeInUp">
           <div class="card">
             <div class="img-place">
@@ -344,6 +288,46 @@
   </div>
   <!-- End blog -->
   
+  <!-- Projects -->
+  <div class="vg-page page-blog" id="projects">
+    <div class="container">
+      <div class="text-center">
+        <div class="badge badge-subhead wow fadeInUp">Blog</div>
+      </div>
+      <h1 class="text-center fw-normal wow fadeInUp">Latest Posts</h1>
+      <div class="row post-grid">
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card">
+            <div class="img-place">
+              <img src="../assets/img/work/work1.png" alt="">
+            </div>
+            <div class="caption">
+              <a href="javascript:void(0)" class="post-category">Mathematics</a>
+              <a href="https://github.com/amsih/BSM/blob/main/BSM.ipynb" class="post-title">Surface Level Study and Python Implementation of the BSM Model</a>
+              <span class="post-date"><span class="sr-only">Published on</span> December 13, 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 wow fadeInUp">
+          <div class="card">
+            <div class="img-place">
+              <img src="../assets/img/work/AUCROC.png" alt="">
+            </div>
+            <div class="caption">
+              <a href="javascript:void(0)" class="post-category">Machine Learning</a>
+              <a href="https://github.com/amsih/ML-In-Python/blob/main/Machine_Learning.ipynb" class="post-title">Studying Machine Learning Fundamentals in Python</a>
+              <span class="post-date"><span class="sr-only">Published on</span> December 13, 2024</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center py-3 wow fadeInUp">
+          <a href="../docs/projects.html" class="btn btn-theme">See All My Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Projects -->
+
   <!-- Footer -->
   <div class="vg-footer">
     <h1 class="text-center">Thank you for reading!</h1>

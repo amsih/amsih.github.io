@@ -27,12 +27,6 @@ site: https://wowjs.uk/
 Waypoints =
 site: http://imakewebthings.com/waypoints/
 
-========================================================================================
-
-All images/photos
-
-https://unsplash.com/
-https://behance.com/
 
 ========================================================================================
 
